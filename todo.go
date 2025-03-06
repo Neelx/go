@@ -1,4 +1,4 @@
-package main
+package no
 
 import (
 	"bufio"
@@ -79,4 +79,7 @@ func Todo() {
 			fmt.Println("Invalid option! Please try again.")
 		}
 	}
+}
+func main() {
+	Todo()
 }
